@@ -146,8 +146,7 @@ if __name__ == '__main__':
     token_ya = os.getenv('token_ya')
     url_ya = 'https://cloud-api.yandex.net:443/v1/disk'
 
-    namedir='12377'
-        # input('Введите наименование папки на ЯДиске : ')
+    namedir= input('Введите наименование папки на ЯДиске : ')
 
     Input_Output(token_vk, user_vk, token_ya,url_ya,namedir)
 
